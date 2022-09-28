@@ -10,6 +10,8 @@
 
 (function() {
     'use strict';
-    //textarea, input, select { color: #000000 !important; background-color: #ffffff !important; }
+    // background color
     GM_addStyle('textarea, input, select { color: #000000; background-color: #ffffff; }')
+    // border color (#D1DBEC is flibusta color, but you can use #000000)
+    GM_addStyle('textarea, input, select { border-color: #D1DBEC; border-width: 1px; border-style: solid; }')
 })();
